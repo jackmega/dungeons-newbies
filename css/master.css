@@ -1,0 +1,309 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	opacity: .3;
+	padding: 0;
+	z-index: 1;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+nav:hover {
+	opacity: 1;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+nav, nav .navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eee;
+}
+nav .navigation li {
+	float:left;
+}
+nav .navigation li a, nav .mobile-btn {
+	color: black;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: .7em;
+	font-weight: 500;
+	font-size: 1.1em;
+	font-variant: small-caps;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+nav .navigation li a:hover, nav .mobile-btn:hover {
+	background-color: #ccc;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+nav .navigation li .active:hover {
+	background-color: #C44536;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+nav .navigation .right, nav .mobile-btn {
+	float: right;
+}
+nav .mobile-btn {
+	display: none;
+	margin-top: 0;
+}
+
+.parallax {
+	height: 100%;
+	background: url('../img/podcast-head-art.png') no-repeat;
+	/*background: url('../img/background.jpg') no-repeat;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.caption {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	height: 2.5%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.caption p {
+	cursor: default;
+	background-color: #ddd;
+	color: black;
+	padding: .5em 1em;
+	font-size: 2.2em;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	opacity: .5;
+	width: 50%;
+	display: block;
+	margin: auto;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.caption p:hover {
+	background-color: #bbb;
+	opacity: .9;
+	padding: .6em 1.1em;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+
+.section {
+	background-color: #eee;
+	width: 100%;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section:hover {
+	background-color: #ddd;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section .item {
+	padding: 1em 2em;
+}
+.section .item .item-head .item-title {
+	font-size: 2em;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+.section .item .item-head .item-head-img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	opacity: .8;
+	border-radius: 20px;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section .item .item-head .item-head-img:hover {
+	border-radius: 5px;
+	opacity: 1;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+
+.listen-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.listen-nav a {
+	margin: .5em 0;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 0;
+	width: 45%;
+	background-color: #eee;
+	font-weight: 500;
+	font-variant: small-caps;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section:hover .listen-nav a {
+	background-color: #ddd;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section .item .listen-nav a:hover {
+	background-color: #ccc;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.podcast {
+	border: 3px solid gray;
+	padding: 1em;
+	border-radius: 10px;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.podcast:hover {
+	background-color: #ccc;
+}
+.podcast audio {
+	width: 100%;
+	background-color: #ccc;
+}
+
+.calendar {
+	margin: auto;
+	display: block;
+	width: 80%;
+	min-width: 300px;
+	min-height: 500px;
+	height: 800px;
+}
+
+.section .item .container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.section .item .container .width-half {
+	width: 45%;
+	padding: 1em;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section .item .container .width-half:hover {
+	background-color: #ccc;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.section .item .container .width-half .width-title {
+	text-align: center;
+	font-size: 1.5em;
+	border-bottom: 1px solid black;
+	font-weight: 400;
+}
+.section .item .container .width-half form p {
+	text-decoration: underline;
+	font-size: 1.2em;
+	line-height: 1em;
+	margin: .2em 0;
+}
+.section .item .container .width-half form input, .section .item .container .width-half form textarea {
+	width: 98%;
+	font-size: 1.1em;
+	font-family: serif;
+	margin-left: 2%;
+}
+.section .item .container .width-half form textarea {
+	height: 3em;
+}
+.section .item .container .width-half form .btn-container {
+	display: flex;
+	justify-content: space-around;
+}
+.section .item .container .width-half form .btn-container .btn {
+	width: 48%;
+}
+
+footer {
+	background-color: #eee;
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+	cursor: default;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+footer:hover {
+	background-color: #ddd;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+footer p {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*Mobile*/
+.mobile-nav {
+	display: none;
+	list-style: none;
+	float: right;
+	text-align: center;
+	margin-right: 1em;
+	width: 100%;
+}
+.mobile-nav a {
+	width: 100%;
+	padding: .7em 0;
+	background-color: #ddd;
+	line-height: 3em;
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-variant: small-caps;
+}
+
+@media screen and (max-width: 766px) {
+	nav .navigation li {
+		display: none;
+	}
+	nav #hide-btn {
+		display: none;
+	}
+	nav .mobile-btn {
+		display: block;
+	}
+}
