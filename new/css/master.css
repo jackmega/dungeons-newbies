@@ -231,7 +231,7 @@ header .dropdown .dropdown-content a:hover {
 	-o--transition: all .5s .2s;
 }
 
-.section .subsection .patreon-main-link, .section .subsection .patreon-link {
+.section .subsection .patreon-main-link, .section .subsection .patreon-link, .section .subsection .redbubble-link {
 	width: 60%;
 	text-align: center;
 	color: black;
@@ -247,13 +247,13 @@ header .dropdown .dropdown-content a:hover {
 	-moz-transition: all .5s .2s;
 	-o--transition: all .5s .2s;
 }
-.section .subsection .patreon-main-link {
+.section .subsection .patreon-main-link, .section .subsection .redbubble-link {
 	width: 70%;
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
 	-o--transition: all .5s .2s;
 }
-.section .subsection .patreon-main-link:hover, .section .subsection .patreon-link:hover {
+.section .subsection .patreon-main-link:hover, .section .subsection .patreon-link:hover, .section .subsection .redbubble-link:hover {
 	background-color: rgba(0, 0, 0, .8);
 	color: white;
 	width: 70%;
@@ -261,7 +261,7 @@ header .dropdown .dropdown-content a:hover {
 	-moz-transition: all .5s .2s;
 	-o--transition: all .5s .2s;
 }
-.section .subsection .patreon-main-link:hover {
+.section .subsection .patreon-main-link:hover, .section .subsection .redbubble-link:hover {
 	width: 80%;
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
@@ -280,6 +280,38 @@ header .dropdown .dropdown-content a:hover {
 }
 .section .subsection .patreon-p:hover {
 	background-color: rgba(0, 0, 0, .2);
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o--transition: all .5s .2s;
+}
+.section .subsection .broken {
+	height: 85%;
+	background-color: rgba(0, 0, 0, .4);
+	text-align: center;
+	border-radius: 1em;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o--transition: all .5s .2s;
+}
+.section .subsection .broken:hover {
+	border-radius: .2em;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o--transition: all .5s .2s;
+}
+.section .subsection .broken p {
+	font-size: 1.5em;
+	color: #995555;
+	height: 20%;
+	margin: 40% 10%;
+	font-weight: bold;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o--transition: all .5s .2s;
+}
+.section .subsection .broken:hover p {
+	font-size: 2em;
+	color: red;
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
 	-o--transition: all .5s .2s;
