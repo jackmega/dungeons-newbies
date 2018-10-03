@@ -1,304 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width" />
-	<link href='css/master.css' rel='stylesheet' type='text/css'>
-	<link href='css/home.css' rel='stylesheet' type='text/css'>
-	<link href='img/icon.png' rel='shortcut icon' type='img/x-icon'>
-	<title>Dungeons and Newbies</title>
+	<meta charset='utf-8'>
+	<meta name='description' content='A Dungeons and Dragons Podcast for Newbies'>
+	<meta name='keywords' content='Dungeons and Dragons, D&D, DnD, Podcast, New, Newbies, Dungeons, Dragons, How, Play, Pod'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='stylesheet' type='text/css' href='css/master.css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<script src='js/master.js'></script>
+	<link href='img/icon.png' rel='shortcut icon' type='img/x-icon'>
+	<title>Dungeons&Newbies</title>
 </head>
-<body id='top'>
-	<nav>
-		<ul class='navigation' id='navigation'>
-			<li><a href='#top'>Home</a></li>
-			<li><a href='#what'>About</a></li>
-			<li><a href='#listen'>Listen Now</a></li>
-			<li><a href='#schedule'>Our Schedule</a></li>
-			<li><a href='#contact'>Contact Us</a></li>
-			<li class='right'><a href='https://www.redbubble.com/people/dungeonsnewbies?asc=u' target='_blank'>RedBubble</a></li>
-			<li class='right'><a href='https://patreon.com/DungeonsNewbies' target='_blank'>Patreon</a></li>
-			<li class='right'><a href='https://twitter.com/DungeonsNewbies' target='_blank'>Twitter</a></li>
-			<li class='right'><a href='https://tunein.com/podcasts/Video-Games/Dungeons-and-Newbies-p1148303/' target='_blank'>TuneIn</a></li>
-			<li class='right'><a href='https://overcast.fm/itunes1313563822/dungeons-newbies' target='_blank'>Overcast</a></li>
-			<li class='right'><a href='https://www.stitcher.com/podcast/dungeons-and-newbies?refid=stpr' target='_blank'>Stitcher</a></li>
-			<li class='right'><a href='https://www.youtube.com/channel/UCT454QSpfnvAUxt2jQRzYyw' target='_blank'>YouTube</a></li>
-			<li class='right'><a href='https://soundcloud.com/dungeonsnewbies' target='_blank'>SoundCloud</a></li>
-			<li class='right'><a href='https://itunes.apple.com/us/podcast/dungeons-newbies/id1313563822' target='_blank'>iTunes</a></li>
-		</ul>
-		<p class='mobile-btn' id='show-btn' onclick='showNav()'>&#9776;</p>
-		<p class='mobile-btn' id='hide-btn' onclick='hideNav()'>&#9747;</p>
-		<div class='mobile-nav' id='mobile-navigation'>
-			<a href=''>Home</a>
-			<a href='#what'>About</a>
-			<a href='#listen'>Listen Now</a>
-			<a href='#schedule'>Our Schedule</a>
-			<a href='#contact'>Contact Us</a>
-			<a href='https://itunes.apple.com/us/podcast/dungeons-newbies/id1313563822' target='_blank'>iTunes</a>
-			<a href='https://soundcloud.com/dungeonsnewbies' target='_blank'>SoundCloud</a>
-			<a href='https://www.youtube.com/channel/UCT454QSpfnvAUxt2jQRzYyw' target='_blank'>YouTube</a>
-			<a href='https://www.stitcher.com/podcast/dungeons-and-newbies?refid=stpr' target='_blank'>Stitcher</a>
-			<a href='https://overcast.fm/itunes1313563822/dungeons-newbies' target='_blank'>Overcast</a>
-			<li class='right'><a href='https://tunein.com/podcasts/Video-Games/Dungeons-and-Newbies-p1148303/' target='_blank'>TuneIn</a></li>
-			<a href='https://twitter.com/DungeonsNewbies' target='_blank'>Twitter</a>
-			<a href='https://patreon.com/DungeonsNewbies' target='_blank'>Patreon</a>
+<body>
+	<header class='topnav' id='myTopnav'>
+		<p class='pod-name'>Dungeons&Newbies</p>
+		<div class='spacer'> </div>
+		<div class="dropdown">
+			<button class="dropbtn">Listen to Us</button>
+			<div class="dropdown-content">
+				<a href='#listen'>Here</a><br>
+				<a href='https://itunes.apple.com/us/podcast/dungeons-newbies/id1313563822' target='_blank'>iTunes</a><br>
+				<a href='https://soundcloud.com/dungeonsnewbies' target='_blank'>SoundCloud</a><br>
+				<a href='https://www.youtube.com/channel/UCT454QSpfnvAUxt2jQRzYyw' target='_blank'>YouTube</a><br>
+				<a href='https://www.stitcher.com/podcast/dungeons-and-newbies?refid=stpr' target='_blank'>Sitcher</a><br>
+				<a href='https://overcast.fm/itunes1313563822/dungeons-newbies' target='_blank'>Overcast</a><br>
+				<a href='https://tunein.com/podcasts/Video-Games/Dungeons-and-Newbies-p1148303/' target='_blank'>TuneIn</a>
+			</div>
 		</div>
-	</nav>
+		<div class='dropdown'>
+			<button class='dropbtn'>About Us</button>
+			<div class='dropdown-content'>
+				<a href='#why'>Why did I Start D&N?</a><br>
+				<a href='#what'>What is it?</a><br>
+				<a href='#host'>Meet the Host</a><br>
+				<a href='#equipment'>Equipment Used</a>
+			</div>
+		</div>
+		<div class='dropdown'>
+			<button class='dropbtn'>Support Us</button>
+			<div class='dropdown-content'>
+				<a href='https://www.patreon.com/DungeonsNewbies' target='_blank'>Patreon</a><br>
+				<a href='https://www.redbubble.com/people/dungeonsnewbies' target='_blank'>RedBubble</a>
+			</div>
+		</div>
+		<a href='#twitter'>Twitter</a>
+		<a href='#discord'>Discord</a>
+		<a href='javascript:void(0);' style='font-size: 1.5em' class='icon' onclick='myFunction()'>&#9776;</a>
+	</header>
 	<div class='parallax'>
-		<div class='caption'>
-			<p>Dungeons and Newbies</p>
-		</div>
+		<p class='title'>Dungeons&Newbies</p>
 	</div>
-	<div class='section' id='what'>
-		<div class='item'>
-			<div class='item-head'>
-				<p class='item-title'>What is Dungeons and Newbies?</p>
+	<div class='section' style='padding-bottom: 3.5em;'>
+		<p id='listen' class='title' style='padding-top: 1em;'>Listen</p>
+		<iframe class='episodes' width="90%" height="750px" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/213813460&color=%23c02b25&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		<div class='spacer'> </div>
+		<p class='title'>About Us</p>
+			<div class='subsection' id='about'>
+				<p class='title' id='why'>Why I Started Dungeons and Newbies</p>
+					<p class='paragraph'>I started the Dungeons and Newbies Podcast because I love Dungeons and Dragons, and I know first hand how difficult it can be to get into this fantastic game. I know this because I had to teach myself how to play; I purchased the Fifth Edition D&D Starter Set, and I had to teach myself with the help of a friend who, like me, had never played D&D before. Together we worked together reading through the rulebook that came with the Starter Set and taught ourselves the game. I don't want anyone else to have to be in that situation, so I want to use this podcast to inform people how to play and run the game. To start off, we need to know the lingo that goes with Dungeons and Dragons, which is why I devoted the first episode of this podcast to the different words you will hear and what you need for a game of D&D. Since then, I have spent episodes talking about some tips for Dungeon Masters, how to be a good player, and many more topics. I started this podcast to help people play the game and to share my ideas about the game I love so dearly.</p>
 			</div>
-			<div class='width-container'>
-				<div class='width-half'>
-					<p class='half-title'>Why I Started Dungeons&Newbies</p>
-						<p class='half-p'>I started the Dungeons and Newbies Podcast because I love Dungeons and Dragons, and I know first hand how difficult it can be to get into this fantastic game. I know this because I had to teach myself how to play; I purchased the Fifth Edition D&D Starter Set, and I had to teach myself with the help of a friend who, like me, had never played D&D before. Together we worked together reading through the rulebook that came with the Starter Set and taught ourselves the game. I don't want anyone else to have to be in that situation, so I want to use this podcast to inform people how to play and run the game. To start off, we need to know the lingo that goes with Dungeons and Dragons, which is why I devoted the first episode of this podcast to the different words you will hear and what you need for a game of D&D. Since then, I have spent episodes talking about some tips for Dungeon Masters, how to be a good player, and many more topics. I started this podcast to help people play the game and to share my ideas about the game I love so dearly.</p>
-				</div>
-				<div class='width-half'>
-					<p class='half-title'>What is Dungeons&Newbies</p>
-						<p class='half-p'>Dungeons and Newbies is a podcast aimed at teaching people how to play Dungeons and Dragons, and to help them do so. Dungeons and Dragons is an immensely complicated game if you are brand new to it; however, I would like to make it easier for a newcomer to dip their toes in this fantastic hobby. In this podcast I give my opinions on different topics in Dungeons and Dragons, I discuss how I like to approach a problem, and how I run and play the game. My goal with this podcast is to ensure that even someone who has only heard of the game can approach a group feeling confident that they will be able to play the game and have fun.</p>
-				</div>
-				<div class='width-full'>
-					<p class='full-title'>About Me</p>
-						<p class='full-p'>I am Jack, I run the Dungeons and Newbies Podcast. I currently run one game of Dungeons and Dragons and play in a different group. I have more experience as a Dungeon Master; however, I do love to play I think it is a unique way to think about the world. As a Dungeon Master, I am not perfect; I have many things that I would like to work on when I'm running the game, but my players have fun, so that's great. I have played D&D since October of 2016, and I have only ever run 5th edition. I have read through a few things from previous editions and implemented them into my 5th edition games. I love to world build and create towns that are more than meets the eye. I am currently a freshman in college and am looking to become a voice actor. If you have any questions about my podcast or about me (please no personal information) send an email to <a href='mailto:Jack@DungeonsAndNewbies.com'>Jack@DungeonsAndNewbies.com</a>. Thank you for your interest in the Dungeons and Newbies Podcast!
-				</div>
-				<div class='width-half'>
-					<p class='half-title'>Our Twitter Feed</p>
+			<div class='subsection'>
+				<p class='title' id='what'>What is Dungeons&Newbies</p>
+					<p class='paragraph'>Dungeons and Newbies is a podcast aimed at teaching people how to play Dungeons and Dragons, and to help them do so. Dungeons and Dragons is an immensely complicated game if you are brand new to it; however, I would like to make it easier for a newcomer to dip their toes in this fantastic hobby. In this podcast I give my opinions on different topics in Dungeons and Dragons, I discuss how I like to approach a problem, and how I run and play the game. My goal with this podcast is to ensure that even someone who has only heard of the game can approach a group feeling confident that they will be able to play the game and have fun.</p>
+			</div>
+			<div class='subsection'>
+				<p class='title' id='host'>Meet the Host</p>
+					<p class='paragraph'>I am Jack, I run the Dungeons and Newbies Podcast. I currently run one game of Dungeons and Dragons and play in a different group. I have more experience as a Dungeon Master; however, I do love to play I think it is a unique way to think about the world. As a Dungeon Master, I am not perfect; I have many things that I would like to work on when I'm running the game, but my players have fun, so that's great. I have played D&D since October of 2016, and I have only ever run 5th edition. I have read through a few things from previous editions and implemented them into my 5th edition games. I love to world build and create towns that are more than meets the eye. I am currently a freshman in college and am looking to become a voice actor. If you have any questions about my podcast or about me (please no personal information) send an email to <a href='mailto:Jack@DungeonsAndNewbies.com'>Jack@DungeonsAndNewbies.com</a>. Thank you for your interest in the Dungeons and Newbies Podcast!</p>
+			</div>
+			<div class='subsection'>
+				<p class='title' id='equipment'>Equipment Used</p>
+					<p class='paragraph'>The Dungeons and Newbies Podcast uses some fantastic gear. Let's start at the beginning, first, we write all the scripts in Microsoft Word, some pretty standard stuff. Next, when I go to record, he uses an Audio Technica AT2035, the guests all use their own mics. In the future, I'd like to get a few other microphones, so myself and my guests all have amazing audio quality. My microphone runs into a Behringer Xenyx 502 mixer which is plugged into a Behringer U-Phoria UMC22 interface. That interface is then connected into my laptop running Adobe Audition. The headphones I use are the Audio Technica ATH-M50X headphones.</p>
+					<img id='img1' src='img/mic.jpg' class='image' alt='Audio Technica AT2035'>
+					<img id='img2' src='img/mic-headphones.jpg' class='image' alt='Audio Technica AT2035 and Audio Technica ATH-M50X'>
+					<img id='img3' src='img/laptop-mixer-interface.jpg' class='image' alt='Behringer Xenyx mixer, Behringer U-Phoria UMC22 interface, and Adobe Audition'>
+			</div>
+	</div>
+	<div class='parallax'></div>
+	<div class='section'>
+		<p class='title'>Support Us</p>
+		<div class='subsection'>
+			<p class='title'>Patreon</p>
+				<a class='patreon-link patreon-main-link' href='https://www.parteon.com/DungeonsNewbies'>Patreon</a>
+					<a class='patreon-link' href='https://www.patreon.com/bePatron?c=1312197&rid=2123553'>$1: You Use the Help Action</a>
+						<p class='patreon-p' class='link-desc'>You Use the Help Action: this tier gives you access to patron only posts, higher priority of suggestions, a shout out at the end of each episode, a special discord role, and access to the Podcast a day early!</p>
+					<a class='patreon-link' href='https://www.patreon.com/bePatron?c=1312197&rid=2123561'>$2: You Cast Mage Hand</a>
+						<p class='patreon-p' class='link-desc'>You Cast Mage Hand: this tier gives you everything from the previous tier, your suggestions are even higher priority, and a different special Discord role!</p>
+					<a class='patreon-link' href='https://www.patreon.com/bePatron?c=1312197&rid=2123563'>$5: You Cast Charm Person</a>
+						<p class='patreon-p' class='link-desc'>You Cast Charm Person: this tier gives you everything from the previous tiers, a shout out in the middle of the episode, you can shout someone else or another podcast out with your name, and a different discord role.</p>
+					<a class='patreon-link' href='https://www.patreon.com/bePatron?c=1312197&rid=2123567'>$10: You Cast Wish</a>
+						<p class='patreon-p' class='link-desc'>You Cast Wish: this tier gives you everything from the previous tiers, a shout out at the start of the episodes, a possibility of being invited to join an episode, and the highest patron discord role!</p>
+		</div>
+		<div class='subsection'>
+			<p class='title'>RedBubble</p>
+				<a class='redbubble-link' href='https://www.redbubble.com/people/dungeonsnewbies' target='_blank'>RedBubble</a>
+					<div class='broken'>
+						<p>
+							404<br>
+							The Embeded RedBubble does not work at this time. Click the link above to go to RedBubble.
+						</p>
+					</div>
+		</div>
+		<div class='spacer'> </div>
+		<div class='subsection' id='twitter'>
+			<p class='title'>Twitter</p>
+				<a class='twitter-link' href='https://twitter.com/DungeonsNewbies' target='_blank'>Twitter</a>
+					<div class='twitter-feed'>
 						<a class="twitter-timeline" data-height="700" data-theme="dark" href="https://twitter.com/DungeonsNewbies?ref_src=twsrc%5Etfw">Tweets by DungeonsNewbies</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>
-				<div class='width-half'>
-					<p class='half-title'>Our Discord Feed</p>
+					</div>
+		</div>
+		<div class='subsection' id='discord'>
+			<p class='title'>Discord</p>
+				<a class='discord-link' href='https://discord.gg/rQu9uHd'>Discord</a>
+					<div class='discord-feed'>
 						<iframe src="https://discordapp.com/widget?id=380206665447768085&theme=dark" width="100%" height="700" allowtransparency="true" frameborder="0"></iframe>
-				</div>
-			</div>
+					</div>
 		</div>
 	</div>
-	<div class='parallax'></div>
-	<div class='section' id='listen'>
-		<div class='item'>
-			<div class='item-head'>
-				<p class='item-title'>Listen to Dungeons and Newbies</p>
-				<img class='item-head-img' src='img/podcast-head-art.png' alt='Dungeons and Newbies Podcast Art'>
-				<div class='listen-nav'>
-					<a href='https://itunes.apple.com/us/podcast/dungeons-newbies/id1313563822' target='_blank'>iTunes</a>
-					<a href='https://soundcloud.com/dungeonsnewbies' target='_blank'>SoundCloud</a>
-				</div>
-			</div>
-
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/CjS6JQWuWpI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this first episode of Dungeons & Newbies, we are going to be talking about how to get started in the fantastic hobby that is Dungeons and Dragons. We will be talking about the dice used, things you may want to bring, whether or not you should know the rules, some phrases that you will definitely hear, and the time commitment that comes with D&D. You can get the pdf of the basic rules at <a href='dnd.wizards.com/articles/features/basicrules' target='_blank'>dnd.wizards.com/articles/features/basicrules</a>.</p>
-				</div>
-			</div><div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/4-4HeW4e1mQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about storytelling in the fantastic hobby that is Dungeons and Dragons. We will be talking about how you can use storytelling in your game, things you may want to keep in mind, and how to add more storytelling as a DM.</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/pOhukB2oWrg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about how to be a player in the fantastic hobby that is Dungeons and Dragons. We will be talking about how you can be a great player in D&D, along with some other tips.</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/j0cquPQygxc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about how to be a DM in the fantastic hobby that is Dungeons and Dragons. We will be talking about how to choose your words, how to get the players to be more creative, the jobs of a DM, and more! You can find DMsGuild at <a href='dmsguild.com' target='_blank'>DMsGuild.com</a>.</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/8CYmq7HpLug?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about some amazing tools in the DM's toolbox in the fantastic hobby that is Dungeons and Dragons. We will be talking about the tools I use and the different ways you can use them!</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/ldNqMRWZjvE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about why I play, and why you should play the fantastic game that is Dungeons and Dragons. We will be talking about just a few of the different reasons why I play and some reasons you should give D&D a try too!</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/9xuRYWM7Jzw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about some of the questions that new DMs may have about the fantastic game that is Dungeons and Dragons. We will be talking about just a few of the questions new Dungeon Masters may have and what my answer to them is.</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/K-38-e-VPzA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about technology at the gaming table. We will be talking about when it is appropriate to be using technology at the gaming table and how to be respectful of the other people when using it.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/bnFIlKKtKmg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about technology at the gaming table. We will be talking about when it is appropriate to be using technology at the gaming table and how to be respectful of the other people when using it.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/kmydV62z_8U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about music at the gaming table. We will be talking about when to use music, when, and why you should.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/S_Ds0BOi-Vs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be exploring the default fifth edition character sheet for Dungeons and Dragons. This is part 1 of 3; part 1 examines the first page of the character sheet.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/O-1KKo3lJ4o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be talking about the process that we go through when creating characters in Dungeons and Dragons</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/6i9zDwBiEio?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be exploring the default fifth edition character sheet for Dungeons and Dragons. This is part 2 of 3; part 2 examines the second page of the character sheet.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-			<div class='podcast-container'>
-				<div class='podcast'>
-					<iframe width="100%" height="" src="https://www.youtube.com/embed/VuBgKgIh-1I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen='false'></iframe>
-						<p class='podcast-desc'>In this episode of Dungeons & Newbies, we are going to be taking a look at the different alignments and my interpretation of their meaning in Dungeons and Dragons.</p>
-						<p class='podcast-desc'>
-							Music:<br>
-							Hero Down Kevin MacLeod (incompetech.com)<br>
-							Licensed under Creative Commons: By Attribution 3.0 License<br>
-							<a href='http://creativecommons.org/licenses/by/3.0/' target="_blank">http://creativecommons.org/licenses/by/3.0/</a>
-						</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class='parallax'></div>
-	<div class='section' id='schedule'>
-		<div class='item'>
-			<div class='item-head'>
-				<p class='item-title'>Dungeons and Newbies Schedule</p>
-			</div>
-			<iframe class='calendar' src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23cccccc&amp;src=j4pf0ct1telfdbgc1rt916blk4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FDenver" style="border-width:0" frameborder="0" scrolling="no"></iframe>
-		</div>
-	</div>
-	<div class='parallax'></div>
-	<div class='section' id='contact'>
-		<div class='item'>
-			<div class='item-head'>
-				<p class='item-title'>Contact Dungeons and Newbies</p>
-			</div>
-			<div class='container'>
-				<div class='width-half'>
-					<p class='width-title'>Contact Jack:</p>
-						<form action='mailto:jack@dungeonsandnewbies.com' method='post' enctype='text/plain'>
-							<p>Name:</p>
-							<input type='text' name='name'>
-							<p>Email:</p>
-							<input type='email' name='email'>
-							<p>Message:</p>
-							<textarea name='message'></textarea>
-							<div class='btn-container'>
-								<input class='btn' type="submit" value="Send">
-								<input class='btn' type="reset" value="Reset">
-							</div>
-						</form>
-				</div>
-				<div class='width-half'>
-					<p class='width-title'>Contact L:</p>
-						<form action='mailto:l@dungeonsandnewbies.com' method='post' enctype='text/plain'>
-							<p>Name:</p>
-							<input type='text' name='name'>
-							<p>Email:</p>
-							<input type='email' name='email'>
-							<p>Message:</p>
-							<textarea name='message'></textarea>
-							<div class='btn-container'>
-								<input class='btn' type="submit" value="Send">
-								<input class='btn' type="reset" value="Reset">
-							</div>
-						</form>
-				</div>
-				<div class='width-half'>
-					<p class='width-title'>Contact us:</p>
-						<form action='mailto:contact@dungeonsandnewbies.com' method='post' enctype='text/plain'>
-							<p>Name:</p>
-							<input type='text' name='name'>
-							<p>Email:</p>
-							<input type='email' name='email'>
-							<p>Message:</p>
-							<textarea name='message'></textarea>
-							<div class='btn-container'>
-								<input class='btn' type="submit" value="Send">
-								<input class='btn' type="reset" value="Reset">
-							</div>
-						</form>
-				</div>
-				<div class='width-half'>
-					<p class='width-title'>Have a Question:</p>
-						<form action='mailto:question@dungeonsandnewbies.com' method='post' enctype='text/plain'>
-							<p>Name:</p>
-							<input type='text' name='name'>
-							<p>Email:</p>
-							<input type='email' name='email'>
-							<p>Message:</p>
-							<textarea name='message'></textarea>
-							<div class='btn-container'>
-								<input class='btn' type="submit" value="Send">
-								<input class='btn' type="reset" value="Reset">
-							</div>
-						</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class='parallax'></div>
-	<footer>
-		<p>&copy; Dungeons and Newbies</p>
-	</footer>
 </body>
+<footer>
+	<p class='copyright'>&copy; 2018 Dungeons&Newbies</p>
+</footer>
 </html>
